@@ -7,7 +7,7 @@ biology
 projects](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424).
 
 ## Contents 
-- A toy Python module ([`src/bin/analysis.py`](src/bin/analysis.py)). This file
+- A toy Python module ([`bin/analysis.py`](bin/analysis.py)). This file
   contains a couple simple functions and demonstrates how to write Python code
   that can be used as both an imported module and a command line program. It
   also shows how to integrate simple unit tests into the same file. 
@@ -20,8 +20,8 @@ projects](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi
 
 ## Tips for using this repository
 
-- The `src/bin/analysis.py` not only has example functions, but also describes
-  how to write documentation alognside the code.
+- The `bin/analysis.py` not only has example functions, but also describes
+  how to write documentation alongside the code.
   
 - Run the tests (you'll need `pytest` installed either with pip or conda):
   ```bash
